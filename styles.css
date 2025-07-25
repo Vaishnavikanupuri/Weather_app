@@ -1,0 +1,28 @@
+
+html{
+    height:100%;
+    widht:100%;
+    overflow: hidden;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url('background.webp'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.main_heading{
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.search_box {
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    margin-top:50px;
+    margin-bottom:100px;
+}
